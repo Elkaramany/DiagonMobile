@@ -1,0 +1,104 @@
+async function signInWithPhoneNumber (phoneNumber) {
+    await auth()
+      .signInWithPhoneNumber(phoneNumber)
+      .then(confirmation => {
+        setConfirm(confirmation)
+      })
+      .catch(e => {
+        Alert.alert('Invalid Phone number')
+      })
+    setLoaded(true)
+  }
+
+  async function confirmCode () {
+    setLoaded(false)
+    try {
+      let validation = await confirm?.confirm(code)
+      if (validation) props.navigation.navigate('UserSignupFinal')
+    } catch (error) {
+      Alert.alert('Invalid code.')
+    }
+    setLoaded(true)
+  }
+
+  const showVerify = () => {
+    if (loaded) {
+      return (
+        <TouchableOpacity
+          style={[
+            GlobalStyles.buttonContainer,
+            {flexDirection: 'row', width: '65%'},
+          ]}
+          onPress={() => validFormNavigation()}>
+          <Text style={GlobalStyles.buttonText}>Verify phone number</Text>
+        </TouchableOpacity>
+      )
+    } else {
+      return (
+        <View style={styles.spinnerContainer}>
+          <Spinner size={true} />
+        </View>
+      )
+    }
+  }
+
+  const showConfirm = () => {
+    if (loaded) {
+      return (
+        <TouchableOpacity
+          style={[
+            GlobalStyles.buttonContainer,
+            {flexDirection: 'row', width: '60%'},
+          ]}
+          onPress={() => confirmCode()}>
+          <Text style={GlobalStyles.buttonText}>Confirm Code</Text>
+        </TouchableOpacity>
+      )
+    } else {
+      return (
+        <View style={styles.spinnerContainer}>
+          <Spinner size={true} />
+        </View>
+      )
+    }
+  }
+
+  const phoneNumber = () => {
+    if (!confirm) {
+      return (
+        <>
+          <TextInput
+            right={
+              <TextInput.Icon name='cellphone' color={Colors.mainForeGround} />
+            }
+            mode='outlined'
+            multiline={false}
+            style={GlobalStyles.textInputContainer}
+            label='Phone number'
+            value={phone}
+            onChangeText={text => Credential({prop: 'phone', value: text})}
+            theme={textInputTheme}
+          />
+          {showVerify()}
+        </>
+      )
+    } else {
+      return (
+        <>
+          <TextInput
+            right={
+              <TextInput.Icon name='cellphone' color={Colors.mainForeGround} />
+            }
+            mode='outlined'
+            multiline={false}
+            style={GlobalStyles.textInputContainer}
+            label='Confirmation code'
+            value={code}
+            onChangeText={text => setCode(text)}
+            theme={textInputTheme}
+          />
+          {showConfirm()}
+        </>
+      )
+    }
+  }

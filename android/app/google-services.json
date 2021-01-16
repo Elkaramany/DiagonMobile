@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49937275110",
+    "firebase_url": "https://diagon-b8381.firebaseio.com",
+    "project_id": "diagon-b8381",
+    "storage_bucket": "diagon-b8381.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49937275110:android:7038b1a9eef0cdaa9cc327",
+        "android_client_info": {
+          "package_name": "com.diagon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49937275110-649liuavhuvc5k04bdcnij3otmn42slt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diagon",
+            "certificate_hash": "57e9b34e7082451a9009971c68bf49855b487e48"
+          }
+        },
+        {
+          "client_id": "49937275110-6292c8nvrocjjigalcf9o11hgne9oqfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-LhxgAB48MYrTCXiguSwQ6WZvTBrdwXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49937275110-6292c8nvrocjjigalcf9o11hgne9oqfs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "49937275110-pdtl2n62i0rbinpcf81aemhockkcebdn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>49937275110-7vug18ki60d4v5h3582pk25hfln8bsf6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.49937275110-7vug18ki60d4v5h3582pk25hfln8bsf6</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>49937275110-649liuavhuvc5k04bdcnij3otmn42slt.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA42kKMddOiEiZNWGU-Lt9wpIyWUqYn9p8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>49937275110</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.Diagon</string>
+	<key>PROJECT_ID</key>
+	<string>diagon-b8381</string>
+	<key>STORAGE_BUCKET</key>
+	<string>diagon-b8381.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:49937275110:ios:99d13c0eb0896b889cc327</string>
+	<key>DATABASE_URL</key>
+	<string>https://diagon-b8381.firebaseio.com</string>
+</dict>
+</plist>
