@@ -11,7 +11,7 @@ import {PersistGate} from 'redux-persist/lib/integration/react'
 import {NavigationContainer} from '@react-navigation/native';
 import {getStatusBarHeight} from 'react-native-status-bar-height';
 import {Colors} from './Components/Constants';
-import StackNavigator from './navigation/StackNavigator'
+import StackNavigator from './Components/navigation/StackNavigator'
 
 //Redux setup
 const persistConfig = {

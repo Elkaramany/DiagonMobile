@@ -2,7 +2,7 @@ import { DrawerItem, DrawerItemList } from '@react-navigation/drawer';
 import React from 'react';
 import { SafeAreaView, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import { Colors } from '../Components/Constants';
+import { Colors } from '../Constants';
 
 const DrawerScreen = (props) => {
   const { navigation } = props;

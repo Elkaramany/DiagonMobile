@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Dimensions, Platform, ViewStyle, TextStyle, StyleSheet} from 'react-native';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from '../navigation/node_modules/react-native-vector-icons/MaterialCommunityIcons';
 import {Colors} from '../Constants';
 
 const WIDTH = Dimensions.get('window').width;

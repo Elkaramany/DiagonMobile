@@ -6,7 +6,7 @@ import { TextInput } from 'react-native-paper';
 import _ from 'lodash';
 import { Colors, textInputTheme, GlobalStyles } from './Constants';
 import { Credential, TryLogin } from '../actions';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from './navigation/node_modules/react-native-vector-icons/MaterialCommunityIcons';
 import Header from './common/Header';
 import Spinner from './common/Spinner';
 import {StackNavigationProp} from '@react-navigation/stack';

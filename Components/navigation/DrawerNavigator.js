@@ -1,14 +1,14 @@
 import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { Dimensions } from 'react-native';
-import { Colors } from '../Components/Constants';
+import { Colors } from '../Constants';
 
-import Menu from '../Components/Menu';
-import Cart from '../Components/Cart';
+import Menu from '../Menu';
+import Cart from '../Cart';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Icon2 from 'react-native-vector-icons/Ionicons';
-import Settings from '../Components/Settings';
-import Profile from '../Components/Profile';
+import Settings from '../Settings';
+import Profile from '../Profile';
 
 const WIDTH = Dimensions.get('window').width
 

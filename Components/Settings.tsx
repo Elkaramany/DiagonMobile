@@ -7,7 +7,7 @@ import HeaderArrow from './common/HeaderArrow'
 import {TextInput} from 'react-native-paper'
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import {Colors, textInputTheme, GlobalStyles} from './Constants'
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
+import Icon from './navigation/node_modules/react-native-vector-icons/MaterialCommunityIcons'
 import Spinner from './common/Spinner'
 import {DrawerNavigationProp} from '@react-navigation/drawer'
 

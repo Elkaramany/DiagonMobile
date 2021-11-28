@@ -15,7 +15,7 @@ import {Colors, textInputTheme, GlobalStyles} from './Constants'
 import {Credential} from '../actions'
 import HeaderArrow from './common/HeaderArrow'
 import {StackNavigationProp} from '@react-navigation/stack'
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
+import Icon from './navigation/node_modules/react-native-vector-icons/MaterialCommunityIcons'
 
 interface Cred {
   prop: string

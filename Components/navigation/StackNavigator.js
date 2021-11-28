@@ -1,11 +1,11 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import Home from '../Components/Home';
-import UserSignup from '../Components/Signup';
-import UserSignupFinal from '../Components/SignupFinal';
-import Profile from '../Components/Profile';
-import LogoDesign from '../Components/LogoDesign';
+import Home from '../Home';
+import UserSignup from '../Signup';
+import UserSignupFinal from '../SignupFinal';
+import Profile from '../Profile';
+import LogoDesign from '../LogoDesign';
 
 import DrawerNavigator from './DrawerNavigator';
 
